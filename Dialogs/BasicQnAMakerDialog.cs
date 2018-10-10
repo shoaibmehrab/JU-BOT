@@ -70,7 +70,7 @@ namespace Microsoft.Bot.Sample.QnABot
         // Parameters to QnAMakerService are:
         // Required: subscriptionKey, knowledgebaseId, 
         // Optional: defaultMessage, scoreThreshold[Range 0.0 – 1.0]
-        public BasicQnAMakerPreviewDialog() : base(new QnAMakerService(new QnAMakerAttribute(RootDialog.GetSetting("QnAAuthKey"), Utils.GetAppSetting("QnAKnowledgebaseId"), "মামা কিছু পাই নাই, অন্য কিছু জিগান বলে দিচ্ছি :D", 0.5)))
+        public BasicQnAMakerPreviewDialog() : base(new QnAMakerService(new QnAMakerAttribute(RootDialog.GetSetting("QnAAuthKey"), Utils.GetAppSetting("QnAKnowledgebaseId"), "মামা কিছু পাই নাই, অন্য কিছু জিগান বলে দিচ্ছি :D", 0.1)))
         { }
     }
 
@@ -82,7 +82,7 @@ namespace Microsoft.Bot.Sample.QnABot
         // Parameters to QnAMakerService are:
         // Required: qnaAuthKey, knowledgebaseId, endpointHostName
         // Optional: defaultMessage, scoreThreshold[Range 0.0 – 1.0]
-        public BasicQnAMakerDialog() : base(new QnAMakerService(new QnAMakerAttribute(RootDialog.GetSetting("QnAAuthKey"), Utils.GetAppSetting("QnAKnowledgebaseId"), "মামা কিছু পাই নাই, অন্য কিছু জিগান বলে দিচ্ছি :D", 0.5, 1, Utils.GetAppSetting("QnAEndpointHostName"))))
+        public BasicQnAMakerDialog() : base(new QnAMakerService(new QnAMakerAttribute(RootDialog.GetSetting("QnAAuthKey"), Utils.GetAppSetting("QnAKnowledgebaseId"), "মামা কিছু পাই নাই, অন্য কিছু জিগান বলে দিচ্ছি :D", 0.1, 1, Utils.GetAppSetting("QnAEndpointHostName"))))
         { }
 
     }
