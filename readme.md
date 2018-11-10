@@ -45,3 +45,6 @@ If you have setup continuous integration, then your bot will automatically be de
 4. Jannatul Ferdaws Amrin
 5. Natasha Tanzila
 6. Sudeepto Mohanta 
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
