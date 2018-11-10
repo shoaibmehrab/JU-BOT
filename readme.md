@@ -1,6 +1,6 @@
 ## JU BOT 
 
-This is an automatic response bot for Jahangirnagar University that is currently integrated on JU Computer Club(http://jucomputerclub.org) website and Telegram Platform and have a future plan to integrate some other social platforms like facebook messenger. 
+This is an automatic response bot for Jahangirnagar University that is currently integrated on JU Computer Club (http://jucomputerclub.org) website and Telegram (@jahangirnagarbot) Platform and have a future plan to integrate some other social platforms like facebook messenger. 
 
 ## JU BOT Provies
 
